@@ -28,7 +28,8 @@ class _Screen2State extends State<Screen2> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Weather Api'),
+        //This is mossam api in flutter
+        title: const Text('Mossam Api'),
       ),
       body: FutureBuilder(
         future: getData(),
